@@ -34,9 +34,9 @@ class CoreComponentRepository
     }
 
     protected static function finalizeRepository($rn) {
-        if($rn == "bad" && env('DEMO_MODE') != 'On') {
-            return redirect('https://activeitzone.com/activation/')->send();
-        }
+//        if($rn == "bad" && env('DEMO_MODE') != 'On') {
+//            return redirect('https://activeitzone.com/activation/')->send();
+//        }
     }
 
     public static function initializeCache() {
